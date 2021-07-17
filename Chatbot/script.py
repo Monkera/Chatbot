@@ -6,7 +6,7 @@ import speech_recognition as sr
 
 engineio = pyttsx3.init()
 voices = engineio.getProperty("voices")
-engineio.setProperty("rate", 130)  # Aquí puedes seleccionar la velocidad de la voz
+engineio.setProperty("rate", 130)  
 engineio.setProperty("voice", voices[0].id)
 tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-medium")
 model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-medium")
