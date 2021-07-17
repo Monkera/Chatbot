@@ -5,6 +5,9 @@ Man braucht die DOS-Konsole von Anaconda(Anaconda Prompt) und Python 3.6. Neuere
 Gebe dann ein:
  --><code>conda create -n test python=3.6</code>
  
+ 
+ 
+ 
  --><code>conda activate test</code>
  
 
@@ -17,13 +20,10 @@ Gebe dann ein:
  
  
  
- 
- 
  --><code>python script.py</code>
  
  
- 
- 
+
  
  Liebe Grüsse 
  
